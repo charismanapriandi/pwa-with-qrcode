@@ -1,12 +1,11 @@
-import Snackbar from './components/Snackbar';
 import Scanner from './components/Scanner';
+import OfflineSnackbarHandler from './components/OfflineSnackbar';
 
 function App() {
-  
   return (
     <div className="App">
       <Scanner />
-      <Snackbar show={true} message="connection lost" />
+      <OfflineSnackbarHandler />
     </div>
   );
 }
