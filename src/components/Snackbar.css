@@ -7,7 +7,7 @@
   width: 100%;
   max-width: 50vh;
   border-radius: 10px;
-  background-color: #C05558;
+  background-image: linear-gradient(to bottom right, #9F37F6, #5628F5);
   padding: 16px 24px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
