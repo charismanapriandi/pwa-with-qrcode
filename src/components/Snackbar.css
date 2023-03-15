@@ -5,7 +5,7 @@
   transform: translate(-50%, 0);
   min-width: 250px;
   width: 100%;
-  max-width: 50vh;
+  max-width: 50vw;
   border-radius: 10px;
   background-image: linear-gradient(to bottom right, #9F37F6, #5628F5);
   padding: 16px 24px;

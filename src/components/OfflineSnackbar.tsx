@@ -5,6 +5,8 @@ export default function OfflineSnackbarHandler() {
   const [isOffline, setIsOffline] = useState<boolean>(false)
   
   useEffect(() => {
+    window.navigator.onLine ? setIsOffline(false) : setIsOffline(true)
+    
     window.addEventListener('offline', () => setIsOffline(true))
     window.addEventListener('online', () => setIsOffline(false))
   }, [])

@@ -8,7 +8,7 @@ interface SnackbarProps {
 // Snackbar for show error
 export default function Snackbar({ message, show }: SnackbarProps) {
   return (
-    <div className={`Snackbar-root${show ? ' Snackbar-show' : ''}`}>
+    <div className={`Snackbar-root ${show ? 'Snackbar-show' : ''}`}>
       {message}
     </div>
   )

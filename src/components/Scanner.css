@@ -1,0 +1,47 @@
+.Scanner-root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Scanner-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.Scanner-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0 0 0 1px #262527;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  color: #BDBBBE;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-transform: capitalize;
+}
+
+.Scanner-button:hover {
+  color: #D6D5D7;
+  background-color: #262527;
+}
+
+.Scanner-buttonActive {
+  background-image: linear-gradient(to bottom right, #9F37F6, #5628F5);
+  color: white;
+}
+
+.Scanner-frame {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 0 1px #262527;
+  border-radius: 10px;
+  background-color: #0D0D0D;
+  overflow: hidden;
+}
+
+.Scanner-screen {
+
+}
