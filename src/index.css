@@ -7,9 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
   min-height: 100vh;
+  color: #BDBBBE;
+}
+
+a {
+  color: #BDBBBE;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: 1028px;
+  padding: 0 10px;
+  margin: auto !important;
 }

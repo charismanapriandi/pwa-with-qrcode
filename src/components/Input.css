@@ -1,0 +1,20 @@
+.Input-root {
+  display: flex;
+  gap: 10px;
+}
+
+.Input-field {
+  background-color: #1F1F1F;
+  border: 1px solid #262527;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: all .3s ease-in-out;
+  color: #BDBBBE;
+  width: 100%;
+  /* width: clamp(50vw, 100%, 70vw); */
+}
+
+.Input-field:focus {
+  box-shadow: 0 0 0 2px #5628F5;
+}

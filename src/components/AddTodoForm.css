@@ -1,0 +1,25 @@
+.AddTodoForm-root {
+  max-width: 500px;
+  width: 100%;
+  min-width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.AddTodoForm-SubmitButton {
+  padding: 10px 14px;
+  background-image: linear-gradient(to bottom right, #9F37F6, #5628F5);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  margin-top: 10px
+}
+
+.AddTodoForm-SubmitButton:focus {
+  box-shadow: 0 0 0 2px #5628F5;
+}

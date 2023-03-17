@@ -1,0 +1,31 @@
+.Home {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home a {
+  color: #BDBBBE;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-left: 5px;
+  text-decoration: underline;
+  transition: all .3s ease-in-out;
+}
+
+.Home a:hover {
+  color: white;
+  background-color: #5628F5;
+}
+
+.Home-Footer {
+  margin-top: 24px;
+}
+
+.Home-Scanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

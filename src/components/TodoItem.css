@@ -1,0 +1,33 @@
+.TodoItem-root {
+  padding: 4px 14px;
+  box-shadow: 0 0 0 1px #262527;
+  border-radius: 10px;
+  background-color: #0A0A0A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TodoItem-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.TodoItem-action {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: #1F1F1F;
+  cursor: pointer;
+}
+
+.TodoItem-text {
+  color: #BDBBBE;
+}
